@@ -1,0 +1,22 @@
+{
+  "name": "simplified-bundler",
+  "version": "1.0.0",
+  "description": "A very basic bundler for understanding how bundler works.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/parser": "^7.25.3",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/traverse": "^7.25.3",
+    "js-beautify": "^1.15.1"
+  }
+}
